@@ -1,0 +1,126 @@
+body {
+    background-color: #fff7bc;
+    color: #3a3845;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Expletus Sans", cursive;
+  }
+  
+  .container {
+    height: 100vw;
+  }
+  
+  .avatar {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  
+  header,
+  nav {
+    text-align: center;
+  }
+  
+  .confetti {
+    background-image: url("https://images.unsplash.com/photo-1498354136128-58f790194fa7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870");
+    background-size: cover;
+    padding: 30px;
+  }
+  
+  a {
+    color: #fd5d5d;
+    text-decoration: none;
+  }
+  
+  nav a {
+    margin: 10px 20px;
+    font-size: 30px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    background-color: #c0eda6;
+    margin: auto;
+    margin-bottom: 20px;
+    max-width: 1000px;
+  }
+  
+  main section, aside {
+    padding: 20px;
+  }
+  
+  aside {
+    flex: 0 0 150px;;
+  }
+  
+  section {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .highlight-container,
+  .highlight {
+    position: relative;
+  }
+  
+  .highlight-container {
+    display: inline-block;
+  }
+  
+  .highlight-container:before {
+    content: " ";
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background: #ffd500;
+    transform: rotate(2deg);
+    top: -1px;
+    left: -1px;
+    border-radius: 20% 25% 20% 24%;
+    padding: 10px 3px 3px 10px;
+  }
+  
+  .top-hr {
+    border-top: 5px dotted #ff8080;
+    width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .gig {
+    margin: 10px;
+    width: 150px;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #fd5d5d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #000000;
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    color: white;
+  }
